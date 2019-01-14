@@ -1,1 +1,12 @@
-@import "header-theme.scss";
+@import "header-title/header-title.scss";
+//@import "header-theme.scss";
+.header{
+    //position: fixed;
+    height: 210px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: stretch;
+}

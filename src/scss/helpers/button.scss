@@ -1,6 +1,10 @@
 .button{
   position: relative;
-  border: transparent;
-  background-color: transparent;
   cursor: pointer;
+
+  &--basic{
+      border: 1px solid $interface-color--secondary-dark;
+      background-image: linear-gradient($bgc__button--gr-top, $bgc__button--gr-bottom);
+      border-radius: 3px;
+  }
 }

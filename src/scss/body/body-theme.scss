@@ -1,12 +1,13 @@
 .body--theme{
-    //background-color: $bgc--body-bgc;
-    //color: $text_color--primary_dark;
+    background-color: $bgc--primary;
+    color: $text-color--primary-dark;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
-.body__wrapper--theme{
+.wrapper--theme{
     margin: 0 auto;
-    padding: 0;
-    //background-color: $bgc--primary;
+    padding: 0 3px 10px 3px;
+    background-color: $bgc--primary;
+    border: 1px solid $interface-color--secondary-light;
 }
