@@ -1,0 +1,24 @@
+.direction{
+    flex-basis: 345px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+
+    &__title{
+        @extend .contragent-search-form__title;
+    }
+
+    &__input{
+        flex-basis: 95%;
+
+        &-block{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: stretch;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.data-tabble{
+    width: 95%;
+    border: 1px solid $interface-color--secondary-light;
+    border-collapse: collapse;
+    text-align: left;
+
+    &__header{
+        background-color: $bgc__table-header;
+        border: 1px solid $interface-color--secondary-light;
+        &-row{
+
+            &::after{
+                background: transparent !important;
+            }
+        }
+    }
+    &__body{
+        font-weight: 400;
+    }
+    td{
+        border: 1px solid $interface-color--secondary-dark;
+        padding: 0.2em 0.5em;
+    }
+    th{
+        border: 1px solid $interface-color--secondary-dark;
+        padding: 0.2em 0.5em;
+    }
+    tr{
+        position: relative;
+        &::after{
+            content: '';
+            cursor: pointer;
+            position: absolute;
+            display: block;
+            height: 16px;
+            width: 16px;
+            background-image: url(../../../assets/icons/delete.svg);
+            background-size: 16px;
+            background-repeat: no-repeat;
+            margin-left: 0.5em;
+            margin-top: 0.3em;
+        }
+
+    }
+
+}

@@ -1,1 +1,113 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Relation form</title><!--[if lt IE 10]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link href="./css/index.css" rel="stylesheet"></head><body class="body body--theme"><div class="wrapper wrapper--theme"><header class="header"><div class="header__title header__title--theme-blue">Справочник "Связь дирекции/Дивизиона и Котрагентов"</div><div class="header__search-form"></div><div class="header__add-record-form"></div></header><main class="main main--theme"></main></div><!--end of wrapper--><script type="text/javascript" src="js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Relation form</title>
+        <!--[if lt IE 10]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link href="./css/index.css" rel="stylesheet"></head>
+        <body class="body body--theme">
+            <div class="wrapper wrapper--theme">
+                <header class="header">
+                    <div class="header__title header__title--theme-blue">
+                        <h1 class="header__title-desc">Справочник "Связь дирекции/Дивизиона и Котрагентов"</h1>
+                        <div class="header__lang-switcher">
+                            <button class="header__lang-button button button--lang-sw button--lang-sw--active">RU</button>
+                            <button class="header__lang-button button button--lang-sw">EN</button>
+                        </div>
+                    </div>
+                    <div class="header__search-form search-form">
+                        <label class="search-form__label">Поиск</label>
+                        <input class="search-form__input input input--text" type="text">
+                        <button class="search-form__button button button--basic">Найти</button>
+                    </div>
+                    <div class="header__add-record-form add-record-form">
+                        <form class="add-record-form__form">
+                            <h4 class="add-record-form__title">Добавить новую запись</h4>
+                            <div class="add-record-form__inner">
+                                <div class="add-record-form__inner-block contragent-search-form">
+                                    <h5 class="contragent-search-form__title">Контрагент</h5>
+                                    <div class="contragent-search-form__input-block">
+                                            <input class="contragent-search-form__input input input--text" type="text" value="АО &laquo;Боксит Тимана&raquo; ">
+                                            <span class="icon icon--search"></span>
+                                    </div>
+                                </div>
+                                <div class="add-record-form__inner-block type-relation">
+                                    <h5 class="type-relation__title">Тип связи</h5>
+                                    <select class="type-relation__select select select--basic">
+                                        <option>Входит в периметр</option>
+                                        <option>Не входит в периметр</option>
+                                    </select>
+
+                                </div>
+                                <div class="add-record-form__inner-block direction">
+                                    <h5 class="direction__title">Дирекция/Дивизион</h5>
+                                    <div class="direction__input-block">
+                                        <input class="direction__input input input--text" type="text" value="Инженирингово-строительный дивизион">
+                                        <span class="icon icon--search"></span>
+                                    </div>
+                                </div>
+                                <div class="add-record-form__inner-block search-button">
+                                    <button class="button button--basic button--large">Сохранить</button>
+                                </div>
+                            </div>
+                            <span class="add-record-form__error error">Данная запись уже существует</span>
+                        </form>
+                    </div>
+
+                </header>
+
+                <main class="main main--theme">
+                    <table class="data-tabble">
+                        <thead class="data-tabble__header">
+                            <tr class="data-tabble__header-row"><th>Контрагент</th><th>Тип связи</th><th>Дирекция/Дивизион</th><th>Дата создания</th><th>Пользователь</th></tr>
+                        </thead>
+                        <tbody class="data-tabble__body">
+                            <tr>
+                                <td>АО "Боксит Тимана"</td>
+                                <td>Входит в периметр</td>
+                                <td>Инжинирингово-строительный дивизион</td>
+                                <td>02.01.2018</td>
+                                <td>Пользователь</td>
+                            </tr>
+                            <tr>
+                                <td>ООО "РУСАЛ-Саянская фольга"</td>
+                                <td>Входит в периметр</td>
+                                <td>Упаковочный дивизион</td>
+                                <td>02.01.2018</td>
+                                <td>Пользователь</td>
+                            </tr>
+                            <tr>
+                                <td>ООО "РУСАЛ-Саянская фольга"</td>
+                                <td>Находится под контролем</td>
+                                <td>Упаковочный дивизион</td>
+                                <td>02.01.2018</td>
+                                <td>Пользователь</td>
+                            </tr>
+                            <tr>
+                                <td>ООО "РУСАЛ-Саянская фольга"</td>
+                                <td>Находится под контролем</td>
+                                <td>Аллюминиевый дивизион</td>
+                                <td>02.01.2018</td>
+                                <td>Пользователь</td>
+                            </tr>
+                            <tr>
+                                <td>ООО "РУСАЛ-Саянская фольга"</td>
+                                <td>Находится под контролем</td>
+                                <td>Энергетический дивизион</td>
+                                <td>02.01.2018</td>
+                                <td>Пользователь</td>
+                            </tr>
+                            <tr>
+                                <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
+                                <td>Находится под контролем</td>
+                                <td>Упаковочный дивизион</td>
+                                <td>02.01.2018</td>
+                                <td>Пользователь</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </main>
+            </div><!--end of wrapper-->
+    <script type="text/javascript" src="js/main.js"></script></body>
+</html>

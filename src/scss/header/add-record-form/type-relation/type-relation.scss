@@ -1,0 +1,13 @@
+.type-relation{
+    flex-basis: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+
+    &__title{
+        @extend .contragent-search-form__title;
+    }
+}

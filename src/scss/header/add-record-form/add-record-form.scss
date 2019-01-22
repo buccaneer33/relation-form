@@ -1,0 +1,58 @@
+@import "contragent-search-form/contragent-search-form.scss";
+@import "type-relation/type-relation.scss";
+@import "direction/direction.scss";
+@import "search-button/search-button.scss";
+
+.add-record-form{
+    width: 100%;
+    border: 1px solid $interface-color--secondary-light;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+
+    &__form{
+        flex-grow: 1;
+    }
+    &__title{
+        padding: 1em 0.3em;
+        margin: 0;
+        letter-spacing: 0.7px;
+        font-size: 1.1em;
+    }
+    &__inner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: stretch;
+        padding: 0 0.3em;
+
+        &:first-child{
+            padding-left: 0;
+        }
+        &:last-child{
+            padding-right: 0;
+        }
+
+        &-block{
+            width: 100px;
+            flex-grow: 1;
+            padding: 0.2em 1em;
+            box-sizing: border-box;;
+
+            &:first-child{
+                padding-left: 0;
+            }
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+    &__error{
+        padding: 0 0.4em;
+    }
+}

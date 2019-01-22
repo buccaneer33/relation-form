@@ -1,0 +1,16 @@
+.select{
+
+    &--basic{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none !important;
+        padding: 0 0.3em;
+        border: 1px solid $interface-color--secondary-dark;
+        background-image: url(../../../assets/icons/arrow-down.svg);
+        background-size: 16px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: right 1% center;
+    }
+}

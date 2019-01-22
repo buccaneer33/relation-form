@@ -74,7 +74,7 @@ config.plugins = [
             },
         },
 
-      minify: {collapseWhitespace: true},
+      minify: {collapseWhitespace: false},
       filename: 'index.html',
       template: './src/html/template/index.html'
         }),

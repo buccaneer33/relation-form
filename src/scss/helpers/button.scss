@@ -1,10 +1,41 @@
 .button{
   position: relative;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 
-  &--basic{
-      border: 1px solid $interface-color--secondary-dark;
-      background-image: linear-gradient($bgc__button--gr-top, $bgc__button--gr-bottom);
-      border-radius: 3px;
+
+    &--basic{
+        height: 2.1em;
+        width: 6.2em;
+        font-size: 0.8em;
+        font-weight: 400;
+        border: 1px solid $interface-color--secondary-dark;
+        border-radius: 3px;
+        background: $bgc__button--gr-bottom;
+        background: -moz-linear-gradient(top, $bgc__button--gr-top 0%, $bgc__button--gr-top 50%, $bgc__button--gr-bottom 51%, $bgc__button--gr-bottom 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, $bgc__button--gr-top), color-stop(50%, $bgc__button--gr-top), color-stop(51%, $bgc__button--gr-bottom), color-stop(100%, $bgc__button--gr-bottom));
+        background: -webkit-linear-gradient(top, $bgc__button--gr-top 0%, $bgc__button--gr-top 50%, $bgc__button--gr-bottom 51%, $bgc__button--gr-bottom 100%);
+        background: -o-linear-gradient(top, $bgc__button--gr-top 0%, $bgc__button--gr-top 50%, $bgc__button--gr-bottom 51%, $bgc__button--gr-bottom 100%);
+        background: -ms-linear-gradient(top, $bgc__button--gr-top 0%, $bgc__button--gr-top 50%, $bgc__button--gr-bottom 51%, $bgc__button--gr-bottom 100%);
+        background: linear-gradient(to bottom, $bgc__button--gr-top 0%, $bgc__button--gr-top 50%, $bgc__button--gr-bottom 51%, $bgc__button--gr-bottom 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$bgc__button--gr-top, endColorstr=$bgc__button--gr-bottom, GradientType=0 );
   }
+    &--large{
+        padding: 0 5.4em;
+    }
+    &--lang-sw{
+        border-radius: 2px;
+        border-color: transparent;
+        background-color: transparent;
+        color: $text-color--lang-sw;
+
+        &--active{
+            background-color: $bgc__lang-switcher--active;
+            color: $text-color--lang-sw--active;
+        }
+    }
 }
