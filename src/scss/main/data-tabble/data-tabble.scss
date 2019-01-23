@@ -1,4 +1,11 @@
+.tabble-content{
+    overflow-y: scroll;
+    position: relative;
+    height: 72%;
+    margin-top: -1px;
+}
 .data-tabble{
+
     width: 96.6%;
     border-collapse: collapse;
     text-align: left;
@@ -6,34 +13,9 @@
   //  position: relative;
 
     &__header{
-   // position: fixed;
-   // display: block;
     margin-top: -15px;
-   // width: 89.1%;
     background-color: white;
     z-index: 10;
-      /*  &-row{
-            margin-top: -15px;
-
-            &::after{
-                background: transparent !important;
-            }
-            & th:nth-child(1){
-                width: 42.3%;
-            }
-            & th:nth-child(2){
-                width: 14.5%;
-            }
-            & th:nth-child(3){
-                width: 22.4%;
-            }
-            & th:nth-child(4){
-                width: 10.1%;
-            }
-            & th:nth-child(5){
-                width: 10.6%;
-            }
-        }*/
 
     }
     &__body{
@@ -63,7 +45,6 @@
         padding: 0em 0.5em;
     }
     tr{
-       // position: relative;
         &::after{
             content: '';
             cursor: pointer;
@@ -82,20 +63,18 @@
 
 }
 .tabble-header{
-   // position: fixed;
+    width: 100%;
+    max-width: inherit;
     display: block;
     background-color: $bgc--primary;
     z-index: 10;
-  //  width: 88.45%;
-    margin-top: -15px;
     text-align: left;
     letter-spacing: 0.7px;
 
     &__tabble{
         border-collapse: collapse;
         text-align: left;
-    //    width: 97.2%;
-        width: 96.4%;
+        width: 95.2%;
         letter-spacing: 0.7px;
         
         th{
