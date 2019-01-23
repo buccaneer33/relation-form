@@ -1,5 +1,6 @@
 .type-relation{
-    flex-basis: 200px;
+    flex-basis: 210px;
+    padding: 0.2em 0.8em;
 
     display: flex;
     flex-direction: column;
@@ -8,6 +9,9 @@
     align-items: stretch;
 
     &__title{
-        @extend .contragent-search-form__title;
+        margin: 0;
+        padding: 0.1em 0.1em 0.4em 0.5em;
+        font-size: 1.1em;
+        letter-spacing: -0.1px;
     }
 }

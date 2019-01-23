@@ -5,7 +5,15 @@
     width: 100%;
     border: 1px solid $interface-color--secondary-light;
     flex-grow: 2;
-    overflow-y: scroll;
-    padding: 1em;
+    padding: 2.1em 1em 3em 0.9em;
     box-sizing: border-box;
+
+    &__inner{
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background-color: $bgc--primary;
+        padding-top: 15px;
+    }
 }

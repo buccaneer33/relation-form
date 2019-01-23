@@ -1,6 +1,6 @@
 .contragent-search-form{
-    flex-basis: 610px;
-
+    flex-basis: 623px;
+    padding: 0.2em 1em;
 
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 
     &__title{
         margin: 0;
-        padding: 1em 0.1em;
+        padding: 0em 0.1em 0.4em 0.4em;
         font-size: 1.1em;
         letter-spacing: -0.1px;
     }
@@ -22,7 +22,7 @@
         
     }
     &__input{
-        flex-basis: 96.9%;
+        flex-basis: 94.9%;
         height: 13.7px;
     }
 }
