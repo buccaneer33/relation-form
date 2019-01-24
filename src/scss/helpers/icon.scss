@@ -3,12 +3,16 @@
         content: '';
         position: absolute;
         display: block;
-        height: 16px;
-        width: 16px;
+        height: 15px;
+        width: 15px;
         background-image: url(../../../assets/icons/search.svg);
-        background-size: 16px;
+        background-size: 15px;
         background-repeat: no-repeat;
         margin-left: 0.7em;
+        margin-top: 0.1em;
     }
 
 }
+select::-ms-expand {
+    display: none;
+    }

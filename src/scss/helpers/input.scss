@@ -1,7 +1,12 @@
 .input{
-    display: block;
     position: relative;
-    padding: 0 0.3em;
+    padding: 0.1em 0.3em 0 0.3em;
+    height: 13.7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
 
     &--text{
         background-color: transparent;

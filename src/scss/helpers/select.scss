@@ -1,4 +1,10 @@
 .select{
+    height: 15.7px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 
     &--basic{
         -webkit-appearance: none;
@@ -8,7 +14,7 @@
         padding: 0 0.3em;
         border: 1px solid $interface-color--secondary-dark;
         background-image: url(../../../assets/icons/arrow-down.svg);
-        background-size: 16px;
+        background-size: 16px 14px;
         background-color: transparent;
         background-repeat: no-repeat;
         background-position: right 1% center;

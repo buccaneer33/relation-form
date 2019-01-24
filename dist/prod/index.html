@@ -2,14 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title><%= htmlWebpackPlugin.options.title %></title>
-        <!--[if lt IE 11]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    </head>
+        <title>Relation form</title>
+        <!--[if lt IE 10]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link href="./css/index.css" rel="stylesheet"></head>
         <body class="body body--theme">
             <div class="wrapper wrapper--theme">
                 <header class="header">
                     <div class="header__title header__title--theme-blue">
-                        <h1 class="header__title-desc">Справочник "Связь дирекции/Дивизиона и Контрагентов"</h1>
+                        <h1 class="header__title-desc">Справочник "Связь дирекции/Дивизиона и Котрагентов"</h1>
                         <div class="header__lang-switcher">
                             <button class="header__lang-button button button--lang-sw button--lang-sw--active">RU</button>
                             <button class="header__lang-button button button--lang-sw">EN</button>
@@ -17,7 +17,7 @@
                     </div>
                     <div class="header__search-form search-form">
                         <label class="search-form__label">Поиск</label>
-                        <input class="search-form__input input input--text" type="text" />
+                        <input class="search-form__input input input--text" type="text">
                         <button class="search-form__button button button--basic">Найти</button>
                     </div>
                     <div class="header__add-record-form add-record-form">
@@ -27,7 +27,7 @@
                                 <div class="add-record-form__inner-block contragent-search-form">
                                     <h5 class="contragent-search-form__title">Контрагент</h5>
                                     <div class="contragent-search-form__input-block">
-                                            <input class="contragent-search-form__input input input--text" type="text" value="АО &laquo;Боксит Тимана&raquo; " />
+                                            <input class="contragent-search-form__input input input--text" type="text" value="АО &laquo;Боксит Тимана&raquo; ">
                                             <span class="icon icon--search"></span>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                                 <div class="add-record-form__inner-block direction">
                                     <h5 class="direction__title">Дирекция/Дивизион</h5>
                                     <div class="direction__input-block">
-                                        <input class="direction__input input input--text" type="text" value="Инженирингово-строительный дивизион" />
+                                        <input class="direction__input input input--text" type="text" value="Инженирингово-строительный дивизион">
                                         <span class="icon icon--search"></span>
                                     </div>
                                 </div>
@@ -59,14 +59,6 @@
                 <main class="main main--theme">
                     <div class="main__inner">
                         <div class="tabble-header">
-                       <!-- <div class="tabble-header__tabble">
-                            <div class="tabble-header__contragent">Контрагент</div>
-                            <div class="tabble-header__revalent">Тип связи</div>
-                            <div class="tabble-header__direction">Дирекция/Дивизион</div>
-                            <div class="tabble-header__date">Дата создания</div>
-                            <div class="tabble-header__user">Пользователь</div>
-                        </div>-->
-                            <!---->
                             <table class="tabble-header__tabble">
                                 <thead class="tabble-header__header">
                                     <tr class="tabble-header__header-row">
@@ -78,7 +70,6 @@
                                     </tr>
                                 </thead>
                             </table>
-
                         </div>
                         <div class="tabble-content">
                             <table class="data-tabble">
@@ -89,199 +80,174 @@
                                         <td>Инжинирингово-строительный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ООО "РУСАЛ-Саянская фольга"</td>
                                         <td>Входит в периметр</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ООО "РУСАЛ-Саянская фольга"</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ООО "РУСАЛ-Саянская фольга"</td>
                                         <td>Находится под контролем</td>
                                         <td>Аллюминиевый дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ООО "РУСАЛ-Саянская фольга"</td>
                                         <td>Находится под контролем</td>
                                         <td>Энергетический дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
-                                    <tr class="data-tabble__body-row">
+                                    <tr>
                                         <td>ALCOA WORLD ALUMINA BRASIL LTDA</td>
                                         <td>Находится под контролем</td>
                                         <td>Упаковочный дивизион</td>
                                         <td>02.01.2018</td>
                                         <td>Пользователь</td>
-                                        <td><button class="button button--delete"></button></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -290,5 +256,5 @@
                     </div><!--end main__inner-->
                 </main>
             </div><!--end of wrapper-->
-    </body>
+    <script type="text/javascript" src="js/main.js"></script></body>
 </html>
