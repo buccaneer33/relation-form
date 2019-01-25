@@ -33,15 +33,17 @@
             position: relative;
             text-align: left;
             display: block;
-            background-color: $bgc__table-header;
+            //background-color: $bgc__table-header;
         }
 
     }
     &__cell{
         border: 1px solid $interface-color--secondary-dark;
-        padding: 0 0.1em;
-        text-align: left;
+        padding: 0 0.2em;
         //box-sizing: border-box;
+        &--bgc-blue{
+            background-color: $bgc__table-header;
+        }
 
         &--contragent-width{
             width: $contragent-column-width;

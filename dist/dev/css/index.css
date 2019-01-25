@@ -327,12 +327,12 @@ select::-ms-expand {
       font-weight: 500;
       position: relative;
       text-align: left;
-      display: block;
-      background-color: #daeef5; }
+      display: block; }
   .data-tabble__cell {
     border: 1px solid #414141;
-    padding: 0 0.1em;
-    text-align: left; }
+    padding: 0 0.2em; }
+    .data-tabble__cell--bgc-blue {
+      background-color: #daeef5; }
     .data-tabble__cell--contragent-width {
       width: 40%; }
     .data-tabble__cell--relation-width {
