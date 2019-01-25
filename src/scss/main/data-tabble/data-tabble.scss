@@ -1,11 +1,4 @@
-.tabble-content{
-    overflow-y: scroll;
-    box-sizing: border-box;
-    position: relative;
-    height: 72%;
-    margin-top: -1px;
-    width: 1328px;
-}
+
 .data-tabble{
     width: 1293px;
     border-collapse: collapse;
@@ -65,72 +58,78 @@
     z-index: 10;
     text-align: left;
     letter-spacing: 0.7px;
+    padding-right: 46px;
 
     &__tabble{
         border-collapse: collapse;
         box-sizing: border-box;
         text-align: left;
         letter-spacing: 0.7px;
-        //background-color: $bgc__table-header;
+        background-color: $bgc__table-header;
         padding: 0;
         margin: 0;
-        //border: 1px solid $interface-color--secondary-dark;
-        width: 1270px;
-        /*display: flex;
+        border: 1px solid $interface-color--secondary-dark;
+       // width: 1270px;
+        /**/display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         align-items: stretch;
-        justify-content: space-between;*/
+        justify-content: space-between;
 
 
-        
+        /*
         th{
         //    
            // background-color: $bgc__table-header;
             padding: 0em 0.5em;
             box-sizing: border-box;
             margin: 0;
-        }
+        }*/
     }
-  /*  &__contragent{
-        //flex-grow: 1;
-        flex-basis: 546px;
+    &__contragent{
+        flex-grow: 1;
+       // //flex-basis: 546px;
+        background-color: $bgc__table-header;
         box-sizing: border-box;
         padding: 0 1em;
         border-right: 1px solid $interface-color--secondary-dark;
     }
     &__revalent{
         //flex-grow: 1;
-        flex-basis: 172px;
+        flex-basis: 178px;
+       // background-color: $bgc__table-header;
         box-sizing: border-box;
         padding: 0 1em;
         border-right: 1px solid $interface-color--secondary-dark;
     }
     &__direction{
         //flex-grow: 1;
-        flex-basis: 280px;
+        flex-basis: 286px;
+       // background-color: $bgc__table-header;
         box-sizing: border-box;
         padding: 0 1em;
         border-right: 1px solid $interface-color--secondary-dark;
     }
     &__date{
         //flex-grow: 1;
-        flex-basis: 119px;
+        flex-basis: 125px;
+       // background-color: $bgc__table-header;
         box-sizing: border-box;
         padding: 0 1em;
         border-right: 1px solid $interface-color--secondary-dark;
     }
     &__user{
         //flex-grow: 1;
-        flex-basis: 128px;
-
+        flex-basis: 133px;
+        width: 133px;
+       // background-color: $bgc__table-header;
         box-sizing: border-box;
         padding: 0 1em;
-    }*/
+    }/**/
 
     &__header{
         border-collapse: collapse;
-
+/*
         &-row{
             border: 1px solid $interface-color--secondary-dark;
             padding: 0;
@@ -204,6 +203,90 @@
                 //outline: 0;
                 //outline-offset: 0;
             }
-        }
+        }*/
     }
 }
+
+.tabble-content{
+    overflow-y: scroll;
+    box-sizing: border-box;
+    position: relative;
+    height: 72%;
+    margin-top: -1px;
+    padding-right: 15px;
+    //width: 1328px;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;*/
+
+    flex-grow: 10;
+
+     &__inner{
+        height: 17px;
+        flex-basis: 17px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        border-left: 1px solid $interface-color--secondary-dark;
+        //border-right: 1px solid $interface-color--secondary-dark;
+    }
+    &__contragent{
+        flex-grow: 1;
+       // //flex-basis: 546px;
+
+        box-sizing: border-box;
+        padding: 0 1em;
+        border-right: 1px solid $interface-color--secondary-dark;
+        border-bottom: 1px solid $interface-color--secondary-dark;
+    }
+    &__revalent{
+        //flex-grow: 1;
+
+        flex-basis: 178px;
+       // background-color: $bgc__table-header;
+        box-sizing: border-box;
+        padding: 0 1em;
+        border-right: 1px solid $interface-color--secondary-dark;
+        border-bottom: 1px solid $interface-color--secondary-dark;
+    }
+    &__direction{
+        //flex-grow: 1;
+
+        flex-basis: 286px;
+       // background-color: $bgc__table-header;
+        box-sizing: border-box;
+        padding: 0 1em;
+        border-right: 1px solid $interface-color--secondary-dark;
+        border-bottom: 1px solid $interface-color--secondary-dark;
+    }
+    &__date{
+        //flex-grow: 1;
+
+        flex-basis: 125px;
+       // background-color: $bgc__table-header;
+        box-sizing: border-box;
+        padding: 0 1em;
+        border-right: 1px solid $interface-color--secondary-dark;
+        border-bottom: 1px solid $interface-color--secondary-dark;
+    }
+    &__user{
+        //flex-grow: 1;
+        flex-basis: 133px;
+        width: 133px;
+       // background-color: $bgc__table-header;
+        box-sizing: border-box;
+        padding: 0 1em;
+        border-right: 1px solid $interface-color--secondary-dark;
+        border-bottom: 1px solid $interface-color--secondary-dark;
+    }/**/
+    &__btn-del{
+
+        width: 15px;
+        flex-basis: 15px;
+    }
+}
+   
