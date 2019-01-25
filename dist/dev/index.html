@@ -58,205 +58,114 @@
 
                 <main class="main main--theme">
                     <div class="main__inner">
-                        <div class="tabble-header">
-                       <!-- --><div class="tabble-header__tabble">
-                            <div class="tabble-header__contragent">Контрагент</div>
-                            <div class="tabble-header__revalent">Тип связи</div>
-                            <div class="tabble-header__direction">Дирекция/Дивизион</div>
-                            <div class="tabble-header__date">Дата создания</div>
-                            <div class="tabble-header__user">Пользователь</div>
-                        </div>
-                            <!--
-                            <table class="tabble-header__tabble">
-                                <thead class="tabble-header__header">
-                                    <tr class="tabble-header__header-row">
-                                        <th>Контрагент</th>
-                                        <th>Тип связи</th>
-                                        <th>Дирекция/Дивизион</th>
-                                        <th>Дата создания</th>
-                                        <th>Пользователь</th>
+
+                        <table class="data-tabble">
+                            <thead class="data-tabble__header">
+                                <tr class="data-tabble__header-row">
+                                    <th class="data-tabble__cell data-tabble__cell--contragent-width">Контрагент</th>
+                                    <th class="data-tabble__cell data-tabble__cell--relation-width">Тип связи</th>
+                                    <th class="data-tabble__cell data-tabble__cell--direction-width">Дирекция/Дивизион</th>
+                                    <th class="data-tabble__cell data-tabble__cell--date-width">Дата создания</th>
+                                    <th class="data-tabble__cell data-tabble__cell--user-width">Пользователь</th>
+                                    <th class="data-tabble__cell data-tabble__cell--button-width"></th>
+                                </tr>
+                            </thead>
+                           <tbody class="data-tabble__body">
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">АО "Боксит Тимана"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Инжинирингово-строительный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width">
+                                            <button class="button button--delete"></button>
+                                        </td>
                                     </tr>
-                                </thead>
-                            </table>
--->
-                        </div>
-                        <div class="tabble-content">
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
-                            <div class="tabble-content__inner">
-                                <div class="tabble-content__contragent">АО "Боксит Тимана"</div>
-                                <div class="tabble-content__revalent">Входит в периметр</div>
-                                <div class="tabble-content__direction">Инжинирингово-строительный дивизион</div>
-                                <div class="tabble-content__date">02.01.2018</div>
-                                <div class="tabble-content__user">Пользователь</div>
-                                <div class="tabble-content__btn-del"><button class="button button--delete"></button></div>
-                            </div>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width">
+                                            <button class="button button--delete"></button>
+                                        </td>
+                                    </tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button></td>
+                                    </tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button></td>
+                                    </tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button></td>
+                                    </tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button></td>
+                                    </tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button></td>
+                                    </tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button>
+                                    </td></tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button>
+                                    </td></tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button>
+                                    </td></tr>
+                                    <tr class="data-tabble__body-row">
+                                        <td class="data-tabble__cell data-tabble__cell--contragent-width">ООО "РУСАЛ-Саянская фольга"</td>
+                                        <td class="data-tabble__cell data-tabble__cell--relation-width">Входит в периметр</td>
+                                        <td class="data-tabble__cell data-tabble__cell--direction-width">Упаковочный дивизион</td>
+                                        <td class="data-tabble__cell data-tabble__cell--date-width">02.01.2018</td>
+                                        <td class="data-tabble__cell data-tabble__cell--user-width">Пользователь</td>
+                                        <td class="data-tabble__cell data-tabble__cell--button-width"><button class="button button--delete"></button>
+                                    </td></tr>
+                            </tbody>
+                        </table>
+
                             <!-- 
                             <table class="data-tabble">
                                 <tbody class="data-tabble__body">
@@ -463,7 +372,7 @@
                                 </tbody>
                             </table>
                         -->
-                        </div>
+                        
 
                     </div><!--end main__inner-->
                 </main>
