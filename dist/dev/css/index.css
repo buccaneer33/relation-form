@@ -313,67 +313,44 @@ select::-ms-expand {
 .data-tabble {
   border-spacing: 0;
   border-collapse: collapse;
-  width: 100%; }
+  width: 100%;
+  table-layout: fixed; }
   .data-tabble__header {
     width: 100%; }
-  .data-tabble__header-row th {
-    height: 0;
-    line-height: 0;
-    margin: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    color: transparent;
-    border: none;
-    white-space: nowrap; }
-  .data-tabble__block {
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    top: 0;
-    position: absolute;
-    color: black;
-    background-color: #daeef5;
-    padding: 10px;
-    margin-left: -10px;
-    line-height: normal;
+  .data-tabble__header-row {
+    display: block;
     width: 100%;
-    z-index: 2;
-    text-align: left;
-    font-weight: bold; }
-    .data-tabble__block--no-left-border {
-      border-left: none; }
-    .data-tabble__block--no-bottom-border {
-      border-bottom: none; }
-    .data-tabble__block--smaller-margin {
-      margin-left: -12px; }
-    .data-tabble__block--small-margin {
-      margin-left: -11px; }
-    .data-tabble__block--bigger-margin {
-      margin-left: -10px; }
+    padding-right: 17px;
+    /* opera 8px */ }
+    .data-tabble__header-row th {
+      background-color: #daeef5; }
+  @supports (-ms-ime-align: auto) {
+    .data-tabble .data-tabble__header-row {
+      padding-right: 16px; } }
   .data-tabble__cell {
+    padding: 5px;
     text-align: left;
-    padding: 0 10px;
-    border-right: 1px solid #000; }
-    .data-tabble__cell:last-child {
-      border-right: none; }
+    border: 1px solid #414141; }
     .data-tabble__cell--contragent-width {
-      width: 40%; }
+      width: 395px; }
     .data-tabble__cell--relation-width {
-      width: 12%; }
+      width: 15%; }
     .data-tabble__cell--direction-width {
       width: 23%; }
     .data-tabble__cell--date-width {
-      width: 12%; }
+      width: 14%; }
     .data-tabble__cell--user-width {
-      width: 12%; }
+      width: 14%; }
     .data-tabble__cell--button-width {
-      width: 1%; }
+      width: 18px;
+      border-color: transparent;
+      background-color: transparent !important; }
   .data-tabble__body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 200px;
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 100px;
     position: relative; }
-  .data-tabble__body-row {
-    border-bottom: 1px solid #000; }
 
 .main {
   height: 380px;
@@ -390,14 +367,6 @@ select::-ms-expand {
     background-color: white; }
   .main__wrapper {
     width: 100%;
-    max-width: 1300px;
-    position: relative;
-    border: 1px solid #000;
-    background: #efefef;
-    overflow: hidden; }
-  .main__container {
-    height: 150px;
-    border-top: 35px solid transparent;
-    border-bottom: 0px solid transparent; }
+    position: relative; }
 
 /*# sourceMappingURL=index.css.map*/

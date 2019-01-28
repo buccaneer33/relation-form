@@ -12,25 +12,12 @@
 
     &__inner{
 
-        //height: 150px;
         width: 100%;
         box-sizing: border-box;
         background-color: $bgc--primary;
-        //position: relative;
-        //overflow-y: scroll;
     }
     &__wrapper{
         width: 100%;
-        max-width: 1300px;
         position: relative;
-        border: 1px solid #000;
-        background: #efefef;
-        overflow: hidden;
-    }
-    &__container{
-        //overflow-y: scroll;
-        height: 150px;
-        border-top: 35px solid transparent;
-        border-bottom: 0px solid transparent;
     }
 }
