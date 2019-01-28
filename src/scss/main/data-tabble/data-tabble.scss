@@ -1,7 +1,7 @@
 .data-tabble{
     border-spacing: 0;
     border-collapse: collapse;
-    width: 100%;
+    width: 98%;
     table-layout: fixed;
 
     &__header{
@@ -10,6 +10,7 @@
     }
     &__header-row{
         display: block;
+        box-sizing: border-box;
         width:100%;
         padding-right:17px;
         /* opera 8px */
@@ -31,28 +32,34 @@
         border:1px solid $interface-color--secondary-dark;
 
         &--contragent-width{
-            width: $contragent-column-width;
-           //width: 544px;
+            //width: $contragent-column-width;
+            min-width: 400px;
+            max-width: 600px;
         }
         &--relation-width{
             width: $relation-column-width;
-            //width: 206px;
+            min-width: 138px;
+            max-width: 206px;
         }
         &--direction-width{
             width: $direction-column-width;
-            //width: 266px;
+            min-width: 200px;
+            max-width: 266px;
         }
         &--date-width{
             width: $date-column-width;
-            //width: 129px;
+            min-width: 108px;
+            max-width: 200px;
         }
         &--user-width{
             width: $user-column-width;
-            //width: 108px;
+            min-width: 108px;
+            max-width: 200px;
         }
         &--button-width{
             width: $button-column-width;
-            //width: 30px;
+            min-width: 26px;
+            max-width: 30px;
             border-color: transparent;
             background-color: transparent !important;
         }
@@ -61,7 +68,8 @@
     &__body{
         display:block;
         width: 100%;
-        overflow: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
         height: 100px;
         position:relative;
     }
