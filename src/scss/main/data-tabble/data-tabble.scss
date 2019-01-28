@@ -4,7 +4,7 @@
     width: 100%;
 
     &__header{
-        width: 99%;
+        width: 100%;
     }
     &__header-row{
 
@@ -62,35 +62,42 @@
         }
 
         &--contragent-width{
-            //width: $contragent-column-width;
-           width: 544px;
+            width: $contragent-column-width;
+           //width: 544px;
 
         }
         &--relation-width{
-            //width: $relation-column-width;
-            width: 206px;
+            width: $relation-column-width;
+            //width: 206px;
         }
         &--direction-width{
-          //  width: $direction-column-width;
-            width: 266px;
+            width: $direction-column-width;
+            //width: 266px;
         }
         &--date-width{
-            //width: $date-column-width;
-            width: 129px;
+            width: $date-column-width;
+            //width: 129px;
         }
         &--user-width{
-           // width: $user-column-width;
-            width: 108px;
+            width: $user-column-width;
+            //width: 108px;
         }
         &--button-width{
-            //width: $button-column-width;
-            width: 30px;
+            width: $button-column-width;
+            //width: 30px;
         }
     }
 
+    &__body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        //display: table;
+        height: 200px;
+        position: relative;
+    }
     &__body-row{
         border-bottom: 1px solid #000;
-
+        
 
     }
 }
